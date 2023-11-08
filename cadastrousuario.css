@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+ header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .logo img {
+    width: 100px; 
+    height: auto;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo span {
+    color: #f2f2f2;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  .cadastro a {
+    margin-right: 30px;
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: inline-block;
+  }
+  
+  .cadastro a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  body{
+    background-image: url(https://img.freepik.com/fotos-gratis/postura-plana-de-varias-ferramentas-tecnicas-isoladas-no-fundo-branco_53876-138096.jpg?w=740&t=st=1699447005~exp=1699447605~hmac=fecd5f9b04a0ff2cac4b9e7ea309b64768e3c7cb1e57123d265cf438360e388c);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 30px;
+
+}
+
+.nav_links li a{
+    transition: all 0.3a ease 0s;
+    font-size: 18px;
+}
+
+.nav_links li a:hover{
+    color: #2A9685;
+}
+
+.title{
+    background-color: #00000080;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
+    height: 300px;
+    margin-right: 80px;
+    margin-top: -8px;
+    position:relative;
+    justify-content:baseline;
+}
+
+.title p{
+    font-size: 30px;
+    padding: 35px;
+    position: relative;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #00000080;
+    padding: 30px;
+    border-radius: 4%;
+    margin-bottom: 100px;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 400px;
+    position:relative;
+    justify-content: end;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #ffffff;
+}
+
+.label-float label{
+    color: #ffffff;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+button{
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover{
+    background-color: #2A9685;
+    color: #fff;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #111;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 60px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+
+.footerLinks{
+    list-style: none;
+}
+
+.footerLinks li{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerLinks li a{
+    transition: all 0.3a ease 0s;
+}
+
+.footerLinks li a:hover{
+    color: #ffffff;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
